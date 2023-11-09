@@ -13,7 +13,7 @@ entity Agent
 {
 lastname String 
 firstname String 
-age Int 
+age Integer 
 }
 
 relationship OneToMany
