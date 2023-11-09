@@ -1,0 +1,28 @@
+entity City
+{
+name String 
+zipCode String 
+}
+
+entity Adress
+{
+streetNumb String 
+streetName String 
+}
+entity Agent
+{
+lastname String 
+firstname String 
+age Int 
+}
+
+relationship OneToMany
+{
+Agent to Adress
+}
+relationship OneToOne
+{
+Agent to City
+}
+dto Agent, Adress, City with mapstruct
+service Agent, Adress, City with serviceImpl
