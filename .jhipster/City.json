@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20231109104009",
+  "dto": "mapstruct",
+  "entityTableName": "city",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "zipCode",
+      "fieldType": "String"
+    }
+  ],
+  "name": "City",
+  "relationships": [
+    {
+      "otherEntityName": "agent",
+      "otherEntityRelationshipName": "city",
+      "relationshipName": "agent",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

@@ -1,0 +1,26 @@
+{
+  "jhipsterApp": {
+    "adress": {
+      "home": {
+        "title": "Adresses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Adress",
+        "createOrEditLabel": "Create or edit a Adress",
+        "notFound": "No Adresses found"
+      },
+      "created": "A new Adress is created with identifier { param }",
+      "updated": "A Adress is updated with identifier { param }",
+      "deleted": "A Adress is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Adress { id }?"
+      },
+      "detail": {
+        "title": "Adress"
+      },
+      "id": "ID",
+      "streetNumb": "Street Numb",
+      "streetName": "Street Name",
+      "agent": "Agent"
+    }
+  }
+}

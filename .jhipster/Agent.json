@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20231109104209",
+  "dto": "mapstruct",
+  "entityTableName": "agent",
+  "fields": [
+    {
+      "fieldName": "lastname",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "firstname",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "age",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Agent",
+  "relationships": [
+    {
+      "otherEntityName": "city",
+      "otherEntityRelationshipName": "agent",
+      "relationshipName": "city",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "adress",
+      "otherEntityRelationshipName": "agent",
+      "relationshipName": "adress",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

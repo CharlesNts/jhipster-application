@@ -48,6 +48,10 @@ public class CacheConfiguration {
             createCache(cm, fr.it_akademy.jhipsterapp.domain.User.class.getName());
             createCache(cm, fr.it_akademy.jhipsterapp.domain.Authority.class.getName());
             createCache(cm, fr.it_akademy.jhipsterapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, fr.it_akademy.jhipsterapp.domain.City.class.getName());
+            createCache(cm, fr.it_akademy.jhipsterapp.domain.Adress.class.getName());
+            createCache(cm, fr.it_akademy.jhipsterapp.domain.Agent.class.getName());
+            createCache(cm, fr.it_akademy.jhipsterapp.domain.Agent.class.getName() + ".adresses");
             // jhipster-needle-ehcache-add-entry
         };
     }
